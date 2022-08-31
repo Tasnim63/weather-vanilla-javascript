@@ -6,23 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather app</title>
     <!-- my own style file -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awsome cdn -->
+    <script
+      src="https://kit.fontawesome.com/cc3dec09ad.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" />
+        <button><i class="fas fa-search"></i></button>
+      </div>
 
-<div class="location">
-    <h1 class="location-timezone">TimeZone</h1>
-    <p>Icon</p>
-</div>
-
-<div class="tempature">
-    <h2 class="tempature_degree">
-        34
-    </h2>
-    <div class="tempature_description">
-        it's friggin cold
+      <div class="weather">
+        <h2 class="city">Weather in Bangladesh</h2>
+        <div class="temb">51 °C</div>
+        <img src="" alt="" class="icon" />
+        <div class="description">Cloudy</div>
+        <div class="humidity">Humidity:60%</div>
+        <div class="wind">Wind Speed:6.2km/h</div>
+      </div>
     </div>
-</div>
 
     <script src="main.js"></script>
   </body>

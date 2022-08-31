@@ -1,22 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
-    height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient( rgba(21, 20, 20), rgb(107, 34, 90));
-    font-family: sans-serif;
-    color: white;
+    height: 100vh;
+    margin: 0;
+    background: grey;
 }
-.location , .tempature{
-    height: 30vh;
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.card{
+    background: white;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
 }
