@@ -6,12 +6,16 @@ body{
     margin: 0;
     background: grey;
     font-family: sans-serif;
-    background-image: url('https://img.freepik.com/free-photo/red-black-brush-stroke-banner-background-perfect-canva_1361-3597.jpg?w=900&t=st=1661938989~exp=1661939589~hmac=a15a0de80de4a5b1f1146077dc3d7967dc4c631b963c3da2cf27077d7d5e4411');
+    background-image: url('https://unsplash.com/photos/MRB2tMMnr8c');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     font-size: 120%;
   
+}
+h2.city{
+ 
+    margin-bottom: 20px;
 }
 .card{
     background: #000000d0;
@@ -52,4 +56,26 @@ input.search-bar{
     font-family: inherit;
     font-size: 105%;
     width:calc(100% - 100px) ;
+}
+.description{
+    text-transform: uppercase;
+    margin-left: 8px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+.weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+.weather.loading:after{
+    visibility: visible;
+    content: "Loadding...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
 }
