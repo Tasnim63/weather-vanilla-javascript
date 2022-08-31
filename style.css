@@ -5,12 +5,40 @@ body{
     height: 100vh;
     margin: 0;
     background: grey;
+    font-family: sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/red-black-brush-stroke-banner-background-perfect-canva_1361-3597.jpg?w=900&t=st=1661938989~exp=1661939589~hmac=a15a0de80de4a5b1f1146077dc3d7967dc4c631b963c3da2cf27077d7d5e4411');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  
 }
 .card{
-    background: white;
+    background: #000000d0;
     padding: 2rem;
     border-radius: 30px;
     width: 100%;
     max-width: 420px;
     margin: 1rem;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    outline: none;
+}
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    border-radius: 18px;
+    background:#7c7c7c2b ;
+    color: rgb(253, 252, 251);
 }
