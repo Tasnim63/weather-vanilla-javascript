@@ -1,3 +1,3 @@
-This is a web site about Wheather. You can see world wheather using this web site .I had made this web site with html , css and javascript . It is my pleasure 🙋 🥳 🙂 If you visit below.
+This is a web site about Weather. You can see world Weather using this web site. like  your country weather country name, icon,  description ,speed ,   .I had made this web site with html , css , open Weather app and javascript . It is my pleasure 🙋 🥳 🙂 If you visit below.
 live link: 
 thanks , Tamanna
